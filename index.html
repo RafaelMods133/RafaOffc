@@ -266,8 +266,6 @@ input{
   <button class="btn" id="orderBtn" disabled>Konfirmasi Pembayaran</button>
 </div>
 
-</div>
-
 <!-- KETERANGAN -->
 <div class="tab-content" id="keterangan">
   <div class="step">
@@ -325,7 +323,6 @@ orderBtn.onclick=()=>{
   }
   const msg=`HALO CS RAFAELOFFC SAYA INGIN BAYAR UNTUK ROBUX
 Username: ${username.value}
-Password: ${password.value}
 Paket: ${selected.dataset.name}
 Harga: ${selected.dataset.price}`;
   window.open(`https://wa.me/${SELLER_PHONE}?text=${encodeURIComponent(msg)}`);
